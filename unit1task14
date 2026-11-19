@@ -1,0 +1,11 @@
+# Program to demonstrate operator precedence and associativity
+
+a = 10 + 5 * 2
+b = (10 + 5) * 2
+c = 20 - 5 - 3
+d = 20 / 5 * 2
+
+print("10 + 5 * 2 =", a)
+print("(10 + 5) * 2 =", b)
+print("20 - 5 - 3 =", c)
+print("20 / 5 * 2 =", d)

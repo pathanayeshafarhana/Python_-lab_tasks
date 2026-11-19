@@ -1,0 +1,8 @@
+# Program to demonstrate membership operators
+
+list1 = [10, 20, 30, 40, 50]
+
+num = int(input("Enter a number: "))
+
+print("Number is present:", num in list1)
+print("Number is not present:", num not in list1)

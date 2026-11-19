@@ -1,0 +1,15 @@
+# Program to demonstrate type conversion
+
+a = 10
+b = 5.5
+
+c = float(a)
+d = int(b)
+e = str(a)
+
+print("Integer to Float:", c)
+print("Float to Integer:", d)
+print("Integer to String:", e)
+print("Type of c:", type(c))
+print("Type of d:", type(d))
+print("Type of e:", type(e))

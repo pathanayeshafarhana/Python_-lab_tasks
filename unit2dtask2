@@ -1,0 +1,9 @@
+s = input("Enter a string: ")
+
+print("Uppercase:", s.upper())
+print("Lowercase:", s.lower())
+print("Strip:", s.strip())
+print("Split:", s.split())
+print("Replace:", s.replace("a", "b"))
+print("Find:", s.find("a"))
+print("Join:", "-".join(s.split()))

@@ -1,0 +1,6 @@
+name = input("Enter name: ")
+age = int(input("Enter age: "))
+
+print("Name: {}".format(name))
+print(f"Age: {age}")
+print("Name: %s, Age: %d" % (name, age))

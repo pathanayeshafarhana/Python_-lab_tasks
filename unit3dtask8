@@ -1,0 +1,5 @@
+def student_details(**kwargs):
+    for key, value in kwargs.items():
+        print(key, ":", value)
+
+student_details(name="Ravi", English=85, Maths=90, Science=88)

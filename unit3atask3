@@ -1,0 +1,4 @@
+my_list = [10, 25, 5, 40, 15]
+
+print("Largest element:", max(my_list))
+print("Smallest element:", min(my_list))
